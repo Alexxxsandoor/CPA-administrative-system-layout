@@ -1,0 +1,63 @@
+@import 'login.css';
+@import 'mainPage/mainPage.css';
+@import 'oferList/oferListMain.css';
+@import "header.css";
+@import "scriptDom.css";
+@import "window-big-list.css";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+@font-face {
+	font-family: 'Helvetica Neue Cyr Thin';
+	src: url('HelveticaNeueCyr-Thin.eot');
+	src: url('HelveticaNeueCyr-Thin.eot?#iefix') format('embedded-opentype'),
+		url('HelveticaNeueCyr-Thin.woff') format('woff'),
+		url('HelveticaNeueCyr-Thin.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	background: 0;
+	font-size: 24px;
+	font-family: 'Nunito';
+	font-style: normal;
+}
+
+body {
+	background: #0A0C10;
+}
+
+.purple {
+	width: 238px;
+	height: 50px;
+	background: #9BA6EB;
+	border-radius: 32px;
+	margin-top: 44px;
+	border: 0px;
+}
+
+.container {
+	position: absolute;
+	top: 133px;
+	display: flex;
+}
+
+.main {
+	display: none;
+}
+
+.header__main {
+	display: none;
+}
+
+#my {
+	display: none;
+	flex-direction: column;
+}
+
+#all {
+	display: none;
+	flex-direction: column;
+}

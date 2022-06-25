@@ -1,0 +1,72 @@
+.header__main {
+	position: fixed;
+	top: 0;
+	z-index: 100;
+
+	background: #20232D;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.header__link {
+	display: flex;
+	color: #BCC0CF;
+	margin-right: 38%;
+	font-weight: 600;
+
+}
+
+.link img {
+	margin-right: 11px;
+	margin-left: 29px;
+}
+
+.link span {
+	color: #9BA6EB;
+}
+
+.link a {
+	text-decoration: none;
+	color: #666;
+}
+
+.header__rifht-info {
+	display: flex;
+	user-select: none;
+}
+
+.day-night,
+.circle,
+.money {
+	margin-right: 11px;
+}
+
+.money {
+	display: flex;
+	height: 40px;
+	align-items: center;
+
+	padding-left: 20px;
+	color: #B6FFAA;
+	border: 1px solid #B6FFAA;
+	border-radius: 32px;
+}
+
+.money button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	margin-left: 10px;
+	font-size: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 32px;
+	color: #B6FFAA;
+	border: 1px solid #B6FFAA;
+}
+
+.header__link {
+	cursor: pointer;
+}

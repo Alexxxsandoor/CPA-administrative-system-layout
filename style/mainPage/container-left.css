@@ -1,0 +1,85 @@
+.container__left-main {
+	user-select: none;
+	margin-left: 20px;
+
+}
+
+.info {
+	display: flex;
+}
+
+.info p {
+
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+.info h3 {
+	color: #B6FFAA;
+	font-size: 16px;
+}
+
+
+
+.img-info {
+	margin-right: 15px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 20px;
+	height: 20px;
+	padding: 20px;
+	border: 1px solid white;
+	box-shadow: 4px 100px 80px rgba(41, 72, 152, 0.05), 0px 64.8148px 46.8519px rgba(41, 72, 152, 0.037963), 0px -6px 25.4815px rgba(41, 72, 152, 0.0303704), 0px 20px 13px rgba(41, 72, 152, 0.025), 0px 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296), 0px 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+}
+
+.left-main__upper {
+
+	user-select: none;
+	width: 75vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.balance {
+	width: 331px;
+	height: 100%;
+	background: radial-gradient(93.54% 138.15% at 78.97% 8.14%, rgba(155, 166, 235, 0.5) 0%, rgba(155, 166, 235, 0.03) 100%)
+		/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+		, #0A0C10;
+	box-shadow: inset 2px 3px 16px rgba(255, 255, 255, 0.25);
+	border-radius: 25px;
+	padding: 35px 25px;
+}
+
+.balance__title {
+	display: flex;
+	color: #FFFFFF;
+	align-items: center;
+
+}
+
+.balance__title img {
+	margin-right: 7px;
+}
+
+.balance h1 {
+	margin-top: 30px;
+	color: white;
+	font-size: 36px;
+}
+
+.left-main__bottom {
+	background: linear-gradient(180.11deg, rgba(32, 35, 45, 0.5) 0.09%, rgba(32, 35, 45, 0) 99.91%), #0A0C10;
+	box-shadow: inset 2px 3px 12px rgba(255, 255, 255, 0.11);
+	border-radius: 25px;
+	width: 1442px;
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 45px;
+
+}

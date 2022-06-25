@@ -1,0 +1,153 @@
+.container__list-ofer {
+	margin-left: 20px;
+	margin-top: 20px;
+	color: #BCC0CF;
+}
+
+.ofer-list-search {
+	display: flex;
+
+
+
+}
+
+.ofer-list-search input {
+	background: #20232D;
+	border: 1px solid #BCC0CF;
+	border-radius: 32px;
+	padding: 5px 20px;
+	max-height: 32px;
+
+}
+
+.ofer-list-search details {
+	display: flex;
+	background: #20232D;
+	border: 1px solid #BCC0CF;
+	border-radius: 32px;
+	padding: 5px 20px;
+	margin-left: 18px;
+}
+
+.ofer-list-search details p {
+	margin: 10px;
+
+}
+
+.ofer-list {
+	padding: 35px;
+	margin-bottom: 20px;
+	width: 93vw;
+	background: linear-gradient(180.11deg, rgba(32, 35, 45, 0.5) 0.09%, rgba(32, 35, 45, 0) 99.91%), linear-gradient(0deg, #0A0C10, #0A0C10), #FFFFFF;
+	box-shadow: inset 2px 3px 12px rgba(255, 255, 255, 0.11);
+	border-radius: 25px;
+}
+
+.ofer-list__header {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	border-bottom: 1px solid #E0DDFF;
+
+}
+
+.ofer-list__header p {
+	width: 179px;
+	text-transform: uppercase;
+	padding-bottom: 19px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.ofer-list__header p:hover {
+	color: #9BA6EB;
+}
+
+.ofer-list__header p:active {
+	color: #B6FFAA;
+}
+
+.ofer-list__block {
+	padding: 37px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #E0DDFF;
+
+}
+
+.ofer-list__block p {
+	font-weight: 700;
+	width: 179px;
+	text-transform: uppercase;
+	padding-bottom: 19px;
+
+
+}
+
+.ofer-list__block button {
+	color: #BCC0CF;
+	border: 1px solid #BCC0CF;
+	border-radius: 13px;
+	padding: 7px 20px;
+	cursor: pointer;
+
+}
+
+
+.cost {
+	color: #B6FFAA;
+}
+
+.color {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 190px;
+
+}
+
+.color h3 {
+	margin: 2px 2px;
+	padding: 10px 12px;
+	text-align: center;
+	border: 2px solid #9BA6EB;
+	border-radius: 30px;
+	color: #9BA6EB;
+}
+
+.color h3:first-child {
+
+	border: 2px solid #F47B7B;
+
+
+	color: #F47B7B;
+}
+
+.color h3:last-child {
+
+
+	border: 2px solid #B6FFAA;
+
+
+	color: #B6FFAA;
+}
+
+.test {
+	color: rgb(255, 170, 170);
+}
+
+.search-button {
+
+	margin-left: 20px;
+	padding: 5px 20px;
+	border-radius: 30px;
+	background: #9BA6EB;
+	cursor: pointer;
+}
+
+.search-input {
+	color: #BCC0CF;
+}

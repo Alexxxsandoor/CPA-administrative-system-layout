@@ -1,0 +1,114 @@
+.window {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	top: 1vh;
+	left: 30vw;
+	background: linear-gradient(180.11deg, rgba(32, 35, 45, 0.5) 0.09%, rgba(32, 35, 45, 0) 99.91%), #0A0C10;
+	box-shadow: inset 2px 3px 12px rgba(255, 255, 255, 0.11);
+	border-radius: 51px;
+	color: #FFFFFF;
+	padding: 60px 90px;
+	min-width: 603px;
+	user-select: none;
+
+}
+
+.window h1 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.divImg {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+
+}
+
+.imgName {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.divImg h2 {
+
+	margin-left: 20px;
+}
+
+.info {
+	font-weight: 400;
+	font-size: 18px;
+	color: #BCC0CF;
+	margin: 20px 0px 40px 0px;
+}
+
+.balanceDom {
+	color: #B6FFAA;
+	margin-top: 24px;
+	text-align: center;
+}
+
+.divCost {
+	display: flex;
+	justify-content: space-between;
+	background: #20232D;
+	padding: 15px 29px;
+	border: 1px solid #4B4D55;
+	border-radius: 30px;
+}
+
+.divCost h3:first-child {
+	font-weight: 400;
+	font-size: 24px;
+	color: #BCC0CF;
+}
+
+.buttonAdd,
+.done {
+
+	color: #0A0C10;
+	padding: 16px 36px;
+	border-radius: 32px;
+	border: 0;
+	font-weight: 700;
+	font-size: 24px;
+	background: #B6FFAA;
+	margin-top: 56px;
+	cursor: pointer;
+
+}
+
+.done {
+	background: #e1ffaa;
+	cursor: default;
+}
+
+.buttonAdd:hover {
+	color: rgba(10, 12, 16, 0.21);
+}
+
+.buttonclose {
+	color: #BCC0CF;
+	border-radius: 32px;
+	border: 0;
+	font-weight: 700;
+	font-size: 18px;
+
+	margin-top: 20px;
+}
+
+.buttonclose:hover {
+	color: #20232D;
+	cursor: pointer;
+}
+
+.buttonclose:active {
+	color: #73747a;
+	cursor: pointer;
+}

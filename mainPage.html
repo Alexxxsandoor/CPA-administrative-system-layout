@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style/main.css" rel="stylesheet" type="text/css">
+	<title>Document</title>
+</head>
+
+<body>
+	<header class="header__main">
+		<div class="header__logo">
+			<img src="img/logo.png" alt="логотип">
+		</div>
+		<div class="header__link">
+			<div class="link">
+				<img src="img/homeIcon.png" alt="иконк">
+				<a id="link1" onclick="nextPage(1)">
+
+					<span>Головна</span></a>
+			</div>
+			<div class="link">
+				<img src="img/shopIcon.png" alt="иконк">
+				<a id="link2" onclick="nextPage(2)">
+
+					Офери</a>
+			</div>
+			<div class="link">
+				<img src="img/prilIcon.png" alt="иконк">
+				<a id="link3" onclick="nextPage(3)">Мої офери</a>
+			</div>
+
+		</div>
+		<div class="header__rifht-info">
+			<div class="money">
+				<p class="balanceUser">7434 $</p><button>+</button>
+			</div>
+			<div class="day-night">
+				<img src="img/day-night.png" alt="день ночь">
+			</div>
+			<div class="circle">
+				<img src="img/ua.png" alt="день ночь">
+			</div>
+			<div class="circle">
+				<img src="img/Notification.png" alt="день ночь">
+			</div>
+			<div class="circle">
+				<img src="img/user.png" alt="день ночь">
+			</div>
+			<div class="circle">
+				<a href=""><img src="img/exit.png" alt="день ночь"></a>
+
+			</div>
+
+
+		</div>
+	</header>
+	<header class="header">
+		<div class="header__logo">
+			<img src="img/logo.png" alt="логотип">
+		</div>
+	</header>
+	<div class="container">
+		<div class="main">
+			<div class="container__left-main">
+				<div class="left-main__upper">
+					<div class="info">
+						<div class="img-info">
+							<img src="img/container_upIcon/Subtract.png" alt="картинка инфы">
+						</div>
+						<div class="text">
+							<p>Хіти</p>
+							<h3 class="info-hit">3027</h3>
+						</div>
+					</div>
+					<div class="info">
+						<div class="img-info">
+							<img src="img/container_upIcon/Group.png" alt="картинка инфы">
+						</div>
+						<div class="text">
+							<p>Ліди</p>
+							<h3 class="info-lid">48</h3>
+						</div>
+					</div>
+					<div class="info">
+						<div class="img-info">
+							<img src="img/container_upIcon/growth.png" alt="картинка инфы">
+						</div>
+						<div class="text">
+							<p>CR</p>
+							<h3 class="info-cr">5.0 %</h3>
+						</div>
+					</div>
+					<div class="info">
+						<div class="img-info">
+							<img src="img/container_upIcon/Group 137.png" alt="картинка инфы">
+						</div>
+						<div class="text">
+							<p>Хости</p>
+							<h3 class="info-host">1003</h3>
+						</div>
+					</div>
+					<div class="info">
+						<div class="img-info">
+							<img src="img/container_upIcon/stats.png" alt="картинка инфы">
+						</div>
+						<div class="text">
+							<p>Депозити</p>
+							<h3 class="info-dep">22</h3>
+						</div>
+					</div>
+					<div class="info">
+						<div class="img-info">
+							<img src="img/container_upIcon/Vector.png" alt="картинка инфы">
+						</div>
+						<div class="text">
+							<p>Visit to reg%</p>
+							<h3 class="info-reg">30</h3>
+						</div>
+					</div>
+					<div class="balance">
+						<div class="balance__title">
+							<img src="img/container_upIcon/Balance.png" alt="иконка баланса">
+							Баланс
+						</div>
+						<h1 class="balanceUser">$ 7434</h1>
+						<button class="purple"><b>Поповнити</b></button>
+					</div>
+				</div>
+				<div class="left-main__bottom">
+					<canvas id="myChart"></canvas>
+				</div>
+
+			</div>
+			<div class="container__right-main">
+				<div class="advertising">
+
+					<div class="user-img">
+						<img class="user-avatar" src="" alt="фотка юзера">
+					</div>
+					<div class="user-name__maneg-name">
+						<div class="user-name">
+
+						</div>
+						<div class="meneg">
+							<p>Менеджер: Рожков Ярослав</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="advertising-info">
+					<p>Мої офери</p>
+
+
+				</div>
+
+			</div>
+
+
+
+		</div>
+		<div id="my" class="container__list-ofer">
+
+			<div id="my-ofer-list" class="ofer-list">
+				<div class="ofer-list__header">
+					<p onclick="myId()" class="ofer">Офер</p>
+					<p onclick="myCr()" class="cr">CR</p>
+					<p onclick="myhits()" class="hits">Хіти</p>
+					<p onclick="myhosts()" class="hosts">Хости</p>
+					<p>Ліди</p>
+					<p>ДЕпозити</p>
+					<p>Фінанси</p>
+				</div>
+
+			</div>
+
+		</div>
+		<div id="all" class="container__list-ofer">
+
+			<div id="ofer-list-all" class="ofer-list">
+				<div class="ofer-list__header">
+					<p onclick="allId()">ID</p>
+					<p onclick="allName()">Назва</p>
+					<p onclick="allCost()">виплати, $</p>
+					<p onclick="allGoal()">ціль</p>
+					<p onclick="allCountry()">країни</p>
+					<p onclick="allLanguage()">мова</p>
+					<p>Докладніше</p>
+				</div>
+
+
+			</div>
+
+		</div>
+		<div class="window-big-list">
+
+			<div class="window-big-list__title">
+				<img src="img/ofer/img.png">
+				<div class="name-offer-title">
+					<h3 id="name-title">Название</h3>
+					<p>Androind</p>
+
+				</div>
+
+			</div>
+			<div class="block-add">
+				<h3>Tracking link</h3><input value="https://offers.neogara.com/#/register?ref=7u3dg8">
+			</div>
+			<div class="block-add">
+				<h3>Обрати джерело</h3><input>
+			</div>
+			<div class="block-add">
+				<h3>Скрипт</h3><input value="1wefwefew_44CI33e">
+			</div>
+			<div class="block-add">
+				<h3>Назва РК</h3><input>
+			</div>
+			<div class="block-add">
+				<h3>Facebook ID (-s)</h3><input>
+			</div>
+			<div class="block-add">
+				<h3>Заголовок</h3><input>
+			</div>
+			<div class="block-add">
+				<h3>Повідомлення</h3><input>
+			</div>
+			<button onclick="closeBigWindow()" class="button-add-big-window">Зберегти</button>
+			<button onclick="closeBigWindow()" class="buttonclose-window">Закрити</button>
+		</div>
+	</div>
+	<div class="login__container">
+		<div class="login">
+			<h1>Авторизація</h1>
+			<div class="container__input">
+				<h2>E-mail</h2>
+				<input class="email" placeholder="Введіть e-mail">
+			</div>
+			<div class="container__input">
+				<h2>Пароль</h2>
+				<input id="password" class="email" placeholder="Введіть пароль">
+			</div>
+			<button onclick="login()" class="purple"><b>Увійти</b></button>
+		</div>
+	</div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script/script.js"></script>
+<script>
+
+
+	var labels = [
+		'10.05',
+		'14.05',
+		'18.05',
+		'22.05',
+		'26.05',
+		'30.05',
+		'03.06',
+	];
+
+	var data = {
+		labels: labels,
+		datasets: [
+			{
+				label: 'Хіти',
+				backgroundColor: 'rgb(186, 191, 206)',
+				borderColor: 'rgb(186, 191, 206)',
+				data: [2000, 1500, 1400, 1700, 2000, 1300,],
+			},
+			{
+				label: 'Ліди',
+				backgroundColor: 'rgb(155, 166, 235)',
+				borderColor: 'rgb(155, 166, 235)',
+				data: [1200, 700, 400, 450, 540, 400],
+			},
+			{
+				label: 'Депозити',
+				backgroundColor: 'rgb(182, 255, 170)',
+				borderColor: 'rgb(182, 255, 170)',
+				data: [1100, 600, 300, 350, 240, 300],
+			},
+			{
+				label: 'Visit to reg',
+				backgroundColor: 'rgb(255, 170, 170)',
+				borderColor: 'rgb(255, 170, 170)',
+				data: [1050, 550, 250, 300, 200, 250],
+			},
+		]
+	};
+
+
+
+	const config = {
+		type: 'line',
+		data: data,
+		options: {}
+	};
+</script>
+<script>
+	const myChart = new Chart(
+		document.getElementById('myChart'),
+		config
+	);
+</script>
+
+</html>

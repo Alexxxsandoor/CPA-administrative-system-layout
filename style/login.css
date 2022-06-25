@@ -1,0 +1,49 @@
+.header__logo {
+	margin: 25px 43px;
+	width: 102px;
+	height: 44px;
+	user-select: none;
+}
+
+
+.login__container {
+	margin-top: 10vh;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FFFFFF;
+	width: 500px;
+
+	background: linear-gradient(180.11deg, rgba(32, 35, 45, 0.5) 0.09%, rgba(32, 35, 45, 0) 99.91%), #0A0C10;
+	box-shadow: inset 2px 3px 12px rgba(255, 255, 255, 0.11);
+	border-radius: 51px;
+	padding: 60px 53px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.login__container h1 {
+	font-size: 36px;
+	text-align: center;
+}
+
+.login__container input {
+
+	color: #BCC0CF;
+	background: #20232D;
+	border: 1px solid #4B4D55;
+	border-radius: 32px;
+	padding: 17px 29px;
+	margin-bottom: 30px;
+
+}
+
+
+.container__input input {
+	width: 88%;
+
+}
+
+.login button {
+	cursor: pointer;
+}
